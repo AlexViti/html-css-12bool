@@ -1,3 +1,10 @@
+.row {
+	--gap: 1px;
+	gap: var(--gap);
+}
+
 [class*="col-"] {
 	background-color: #006cfa;
+	color: white;
+	text-align: center;
 }
