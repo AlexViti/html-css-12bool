@@ -1,10 +1,19 @@
 .row {
 	--gap: 1px;
 	gap: var(--gap);
+	margin-top: 1px;
 }
 
 [class*="col-"] {
 	background-color: #006cfa;
 	color: white;
 	text-align: center;
+}
+
+#homework [class*="col-"] {
+	padding: .8rem;
+}
+
+.nested [class*="col-"] {
+	background-color: #00e165;
 }
