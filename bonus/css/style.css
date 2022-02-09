@@ -4,10 +4,6 @@
 	border: 1px solid white;
 }
 
-.debug .yes {
-	background-color: white;
-}
-
 /* Common */
 
 body {
@@ -48,4 +44,37 @@ h1 {
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
+}
+
+.pixel:hover {
+	cursor: pointer;
+}
+
+/* .yes:hover {
+	animation: resolve .2s linear 0s 1 forwards;
+}
+
+@keyframes resolve {
+	100%{
+		background-color: white;
+	}
+} */
+
+.debug .resolve {
+	text-align: center;
+	font-size: 30px;
+	background-color: aqua;
+	color: black;
+}
+
+.resolve:hover {
+	cursor: pointer;
+}
+
+.yes {
+	transition: background-color .5s;
+}
+
+.resolve:active~.row>.yes{
+	background-color: white;
 }
