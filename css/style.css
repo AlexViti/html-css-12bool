@@ -5,13 +5,16 @@
 }
 
 [class*="col-"] {
-	background-color: #006cfa;
+	min-height: 34px;
+	
 	color: white;
 	text-align: center;
+	
+	background-color: #006cfa;
 }
 
 #homework [class*="col-"] {
-	padding: .8rem;
+	padding: .5rem;
 }
 
 .nested [class*="col-"] {
