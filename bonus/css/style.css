@@ -1,3 +1,15 @@
+/* DEBUG */
+
+.debug .pixel {
+	border: 1px solid white;
+}
+
+.debug .yes {
+	background-color: white;
+}
+
+/* Common */
+
 body {
 	background-color: navy;
 	color: white;
@@ -24,10 +36,6 @@ h1 {
 	flex-direction: column;
 	justify-content: flex-end;
 	align-items: center;
-}
-
-.pixel {
-	border: 1px solid white;
 }
 
 .pixel::before {
