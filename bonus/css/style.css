@@ -4,7 +4,19 @@ body {
 }
 
 .container {
-	width: 80vh;
+	width: 85vh;
+	padding: 1rem;
+}
+
+@media screen and (orientation: portrait) {
+	.container {
+		width: 100%;
+		padding: .5rem;
+	}
+}
+
+h1 {
+	text-align: center;
 }
 
 .row.number>div {
